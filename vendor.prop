@@ -97,6 +97,10 @@ persist.sys.mdlog_dumpback=2
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
+vendor.vidc.dec.downscalar_height=1080
+vendor.vidc.dec.downscalar_width=2340
+vendor.vidc.enc.disable_bframes=1
+sys.display-size=3840x2160
 
 # Mediatek (Misc)
 ro.vendor.mediatek.platform=MT6768
