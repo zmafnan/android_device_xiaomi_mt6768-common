@@ -101,6 +101,13 @@ vendor.vidc.dec.downscalar_height=1080
 vendor.vidc.dec.downscalar_width=2340
 vendor.vidc.enc.disable_bframes=1
 sys.display-size=3840x2160
+media.stagefright.enable-aac=true 
+media.stagefright.enable-fma2dp=true 
+media.stagefright.enable-http=true 
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+ro.media.recorder-max-base-layer-fps=60
 
 # Mediatek (Misc)
 ro.vendor.mediatek.platform=MT6768
