@@ -1215,3 +1215,10 @@ on property:persist.sys.MT6768.dt2w=0
 
 on property:persist.sys.MT6768.dt2w=1
     exec - system input -- /vendor/bin/dt2w_event 5
+
+# Kill MTK PQ at startup
+service pq-2-2 /bin/sleep 12345d
+    disabled
+
+on property:sys.boot_completed=1
+    stop pq-2-2
