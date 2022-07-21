@@ -55,6 +55,11 @@ ro.vendor.mtk_microtrust_tee_support=1
 ro.vendor.mtk_widevine_drm_l1_support=1
 
 # Display
+debug.enable.sglscale=1
+ro.hardware.egl=meow
+debug.mdpcomp.logs=0
+persist.sys.scrollingcache=1
+debug.sf.recomputecrop=0
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
